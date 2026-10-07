@@ -781,11 +781,13 @@
         .nv {
           background: #000d;
           border-bottom: 1px solid var(--line);
+          overflow: visible;
         }
 
         .nv .wrap {
           height: 64px;
           gap: 12px;
+          overflow: visible;
         }
 
         .nv ul {
@@ -793,8 +795,11 @@
         }
 
         .nv .lg {
-          height: 48px;
+          height: 96px;
           margin: 0;
+          max-width: none;
+          position: relative;
+          top: 16px;
         }
 
         .nv .ord {
